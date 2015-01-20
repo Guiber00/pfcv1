@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/chronometer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:paddingBottom="20dp"
+        android:paddingTop="10dp"
+        android:text="@string/zeroesTime"
+        android:textSize="100sp" />
+    
+	<TableRow android:id="@+id/textTime"
+	    android:layout_below="@id/chronometer"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:gravity="center" >
+        
+		<TextView
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:layout_marginRight="@dimen/space_column"
+		    android:gravity="center"
+		    android:text="@string/textMin"
+		    android:textSize="20sp" />
+    
+    	<TextView
+        	android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+        	android:textSize="20sp"
+        	android:gravity="center"
+        	android:text="@string/textSec" />
+    </TableRow>
+ 
+    
+    <TableRow android:id="@+id/setTime"
+        android:layout_below="@id/textTime"
+        android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:paddingBottom="30dp"
+		android:gravity="center" >
+        
+	    <EditText
+	        android:id="@+id/setMin"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:gravity="right"
+	        android:hint="@string/setZero"
+	        android:inputType="number"
+	        android:maxLength="2"
+	        android:textSize="30sp" />
+	    
+	    <TextView
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:gravity="center"
+		    android:text="@string/points"
+		    android:textSize="30sp" />
+    
+    	<EditText
+    	    android:id="@+id/setSec"
+    	    android:layout_width="wrap_content"
+    	    android:layout_height="wrap_content"
+    	    android:gravity="right"
+    	    android:hint="@string/setZero"
+    	    android:inputType="number"
+    	    android:maxLength="2"
+    	    android:textSize="30sp" />
+
+    </TableRow>
+
+    
+    <ToggleButton android:id="@+id/controlTime"
+        android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:gravity="center"
+        android:layout_below="@id/setTime"
+        android:textOn="@string/pauseTime"
+        android:textOff="@string/startTime" />
+
+    <Button
+        android:id="@+id/resetTime"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/controlTime"
+        android:gravity="center"
+        android:longClickable="true"
+        android:text="@string/resetTime" />
+    
+</RelativeLayout>

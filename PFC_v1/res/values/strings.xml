@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Android CuliChef</string>
+    <string name="action_settings">Opciones</string>
+    <string name="version">Versión 1.0</string>
+
+    <!-- Strings para pantalla de bienvenida -->
+    <string name="startText">Pulsa la pantalla para comenzar</string>
+
+    <!-- Strings para pantalla de LOGIN -->
+    <string name="selectUser">Elige un usuario</string>
+    <string name="summitUser">¡Jugar!</string>
+    <string name="newPlayer">Nuevo jugador</string>
+    <string name="deletePlayer">Eliminar jugador</string>
+    <string name="noSelect">Selecciona o crea un jugador</string>
+    <string name="emptyPlayer">No existen jugadores.</string>
+
+    <!-- Strings para pantalla de LOGIN -Eliminar Usuario -->
+    <string name="deleteUserText">¿Está seguro de que quiere eliminar al usuario siguiente?</string>
+    <string name="delUserStart">El usuario "</string>
+    <string name="delUserEnd">" ha sido eliminado.</string>
+
+    <!-- Strings para pantalla de LOGIN -Crear Usuario -->
+    <string name="newUserStart">Nuevo usuario "</string>
+    <string name="newUserEnd">" creado.</string>
+    <string name="newUserTry">Ese usuario ya existe. Elija otro nombre.</string>
+    <string name="newUserVal">Escriba un nombre de usuario válido.</string>
+
+    <!-- Strings para menú -->
+    <string name="menu">Menú principal</string>
+    <string name="adventure">Aventura CuliChef</string>
+    <string name="mixer">La Batidora</string>
+    <string name="recipes">Libro de Recetas</string>
+    <string name="chrono">Crono CuliChef</string>
+    <string name="tips">Tips Culichef</string>
+    <string name="toCook">¡A cocinar!</string>
+
+    <!-- Strings para la configuración -->
+    <string name="title_activity_main_menu">Configuración</string>
+    <string name="aboutApp">Acerca de…</string>
+    <string name="aboutText">Aplicación móvil interactiva para el desarrollo de las habilidades
+        					culinarias, versión 1.0. PFC de I.T. en Informática de Sistemas, por
+        					José María Rodríguez - Izquierdo Flores</string>
+    <string name="settings">Configuración</string>
+    <string name="title_activity_login_act">Login</string>
+    <string name="title_activity_new_player">Nuevo jugador</string>
+    <string name="title_activity_delete_player">Eliminar jugador</string>
+    
+    <!-- Strings para Cronómetro -->
+    <string name="startTime">Comenzar</string>
+    <string name="resetTime">Resetear</string>
+    <string name="pauseTime">Pausar</string>
+    <string name="setZero">00</string>
+    <string name="textMin">min</string>
+    <string name="textSec">seg</string>
+    <string name="points">:</string>
+    <string name="errorMin">Introduzca una cantidad de minutos entre 0 y 99</string>
+    <string name="errorSec">Introduzca una cantidad de segundos entre 1 y 59</string>
+    <string name="longClick">Mantenga pulsado unos segundos para resetear…</string>
+    <string name="zeroesTime">00:00</string>
+    
+
+    <!-- Strings recurrentes -->
+    <string name="yesText">Sí</string>
+    <string name="noText">No</string>
+    <string name="title_activity_about_text">Acerca de…</string>
+    <string name="hello_world">Hello world!</string>
+
+</resources>
