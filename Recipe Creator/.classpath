@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/PFC_v1"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="lib" path="C:/Android/eclipse-java-luna-SR1a-win32/workspace/Libraries/sqlite-jdbc-3.8.7.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
